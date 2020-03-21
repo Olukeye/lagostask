@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+    width:100%;
+}
+.navbar-brand {
+    margin-left:10%;
+}
+.navbar-nav{
+    float:left;
+    margin-left: 85px;
+    font-size:18px;
+    width: 100%;
+    overflow: auto;
+}
+.navbar a {
+    float: left;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width:12.12%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; 
+}
+.navbar a:hover {
+    background-color:#fff;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+/**"""""""""""FIRST SECTION"""""""""""""""""""*/
+ .cards{ 
+    background-color:	rgb(23, 143, 241);
+    height:750px;
+  }
+ .cards h1{
+     margin-right:px;
+     margin-top:85px;
+ }
+ .cards  p{
+     margin-top:5px;
+ }
+ #imag{
+     margin:55px 0;
+ }
+/* """"""""""""""""SECOND SECTION""""""""""""""" */ 
+.cardd{ 
+    height:900px;
+    padding: 50px;
+    background-color:	rgb(248, 248, 248);
+  }
+ .cardd h1{
+     margin-right:39px;
+     margin-top:85px;
+ }
+ .cardd img{
+     margin:15px 55px;
+     width:250px;
+     float:left;
+ }
+/* """"""""""""""""THIRD SECTION""""""""""""""" */ 
+.car{
+    height:700px;
+}
+.car h1{
+    margin-right:30px;
+    margin-top:85px;
+}
+.car img{
+width:400px;
+height:350x;
+}
+
+.car p{
+    margin-right:30px;
+    color:grey;
+}
+.btn{
+    background: transparent;
+    border:1px solid lightskyblue;
+    width:150px;
+    border-radius:18px;
+    color:	#0080ff;
+    margin-top: 12px;
+}
+/*""""""""""fourth section""""""""""""""""""""*/
+.call{ 
+    background-color:	rgb(248, 248, 248);
+    height:700  px;
+    /* padding:18px; */
+    margin-bottom: 75px;
+  }
+ .call h1{
+     margin-right:30px;
+     margin-top:85px;
+ }
+ .call p{
+     margin-top:5px;
+ }
+ .call img{
+     margin:55px 0;
+     margin-right:20px;
+     border-radius: 35px;
+ }
+ /* *****ref****** */
+ .ref{
+    background-color:rgb(248, 248, 248);
+    /* margin-left:50px;
+    margin-right:50px; */
+    font-size:11px;
+    /* margin-top:20px;
+    margin-bottom:65px; */
+    color:grey;
+    /* padding-left:50px; */
+    /* padding-right:50x; */
+    width:100%;
+  }
+  .carf{
+    margin-top:35px;
+    margin-bottom:65px;
+    /* text-align: unset; */
+    padding-left:115px;
+    padding-right:115px;
+  }
+.p-2 ul li{
+    list-style-type:none;
+  }
+  .p-2 li{
+      color: gray;
+  }
+  /* ***security**** */
+  #security{
+    margin-top:45px;
+    margin-bottom:65px;
+    padding-left:115px;
+    padding-right:115px;
+  }
+  /* #security{
+
+  } */
